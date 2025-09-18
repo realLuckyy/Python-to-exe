@@ -13,13 +13,13 @@ if not exist ".git" (
     echo.
 )
 
-REM Add the remote if it doesn't exist
-git remote get-url origin >nul 2>&1
-if %ERRORLEVEL% NEQ 0 (
-    echo Adding remote origin...
-    git remote add origin https://github.com/realLuckyy/Python-to-exe.git
-    echo.
-)
+REM Remove any existing origin (in case it has the wrong URL)
+git remote remove origin >nul 2>&1
+
+REM Add the correct remote
+echo Setting remote origin...
+git remote add origin https://github.com/realLuckyy/Python-to-exe.git
+echo.
 
 echo Staging all files...
 git add .
@@ -63,7 +63,15 @@ if %ERRORLEVEL% EQU 0 (
 ) else (
     echo.
     echo ? Push failed. Check the error messages above.
-    echo Make sure you're logged into GitHub and have push access.
+    echo.
+    echo Common solutions:
+    echo 1. Make sure you're logged into GitHub (git config --global user.name "YourName")
+    echo 2. Check if you have push access to the repository
+    echo 3. Try: git remote -v (to verify the remote URL)
+    echo.
+    echo If you need to authenticate:
+    echo - For HTTPS: git config --global credential.helper store
+    echo - Or use GitHub CLI: gh auth login
     echo.
 )
 
