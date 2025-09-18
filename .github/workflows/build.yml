@@ -1,0 +1,59 @@
+name: Build and Release
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x
+        
+    - name: Restore dependencies
+      run: dotnet restore
+      
+    - name: Build
+      run: dotnet build --no-restore --configuration Release
+      
+    - name: Test
+      run: dotnet test --no-build --configuration Release --verbosity normal
+      
+    - name: Publish
+      if: github.event_name == 'release'
+      run: dotnet publish --configuration Release --self-contained true --runtime win-x64 --output publish/win-x64
+      
+    - name: Create Release Package
+      if: github.event_name == 'release'
+      run: |
+        # Copy additional files
+        Copy-Item "README.md" "publish/win-x64/"
+        Copy-Item "LICENSE" "publish/win-x64/"
+        Copy-Item "TROUBLESHOOTING.md" "publish/win-x64/"
+        Copy-Item "CHANGELOG.md" "publish/win-x64/"
+        Copy-Item "check_python_setup.bat" "publish/win-x64/"
+        
+        # Create ZIP package
+        Compress-Archive -Path "publish/win-x64/*" -DestinationPath "PyConverter-${{ github.event.release.tag_name }}-win-x64.zip"
+      shell: powershell
+      
+    - name: Upload Release Asset
+      if: github.event_name == 'release'
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ github.event.release.upload_url }}
+        asset_path: ./PyConverter-${{ github.event.release.tag_name }}-win-x64.zip
+        asset_name: PyConverter-${{ github.event.release.tag_name }}-win-x64.zip
+        asset_content_type: application/zip

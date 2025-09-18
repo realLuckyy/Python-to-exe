@@ -1,0 +1,6 @@
+PyInstaller Bundle Information
+Generated: 18/09/2025  7:16:32.74
+Wheel Files: 9
+
+This bundle contains PyInstaller and all its dependencies for offline installation.
+The PyConverter application will automatically use these bundled files when available.
