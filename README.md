@@ -1,4 +1,4 @@
-# ?? PyConverter - Python to EXE Converter
+# PyConverter - Python to EXE Converter
 
 [![Build Status](https://github.com/realLuckyy/Python-to-exe/workflows/Build/badge.svg)](https://github.com/realLuckyy/Python-to-exe/actions)
 [![Release](https://img.shields.io/github/v/release/realLuckyy/Python-to-exe)](https://github.com/realLuckyy/Python-to-exe/releases)
@@ -9,23 +9,23 @@
 
 Transform your Python projects into professional Windows applications with zero dependencies required on the target machine!
 
-## ? Features
+## Features
 
-### ?? Core Functionality
+### Core Functionality
 - **One-Click Conversion** - Convert Python scripts to EXE files with a single button click
 - **Smart PyInstaller Integration** - Automatically handles PyInstaller execution and arguments
 - **Automatic Python Detection** - Finds Python installations using multiple methods
 - **Dependency Bundling** - Automatically detects and includes required Python modules
 - **Single File Output** - Creates standalone .exe files that work on any Windows computer
 
-### ?? User Interface
+### User Interface
 - **Drag & Drop Support** - Simply drag Python files directly into the application
 - **File Browser Integration** - Built-in file browsers for Python files, output directories, and icons
 - **Real-time Output Log** - Live conversion progress with detailed status updates
 - **Professional GUI** - Modern, clean interface with intuitive controls
 - **Progress Indication** - Visual progress bar and status updates during conversion
 
-### ?? Advanced Options
+### Advanced Options
 - **Single File Mode** - Create one portable .exe file (`--onefile`)
 - **Console Hiding** - Hide console window for GUI applications (`--noconsole`)
 - **Debug Mode** - Enable detailed debugging output (`--debug all`)
@@ -33,20 +33,20 @@ Transform your Python projects into professional Windows applications with zero 
 - **Output Directory Control** - Choose where your .exe files are created
 - **Clean Builds** - Automatic cleanup of temporary build files
 
-### ??? Production Ready
+### Production Ready
 - **Settings Persistence** - Remembers your last used directories and settings
 - **Comprehensive Logging** - Detailed log files with timestamps and error tracking
 - **Input Validation** - Prevents errors with thorough file and path validation
 - **Error Recovery** - Graceful handling of missing files and failed operations
 - **Process Management** - Safe handling of PyInstaller processes and cleanup
 
-## ?? Screenshots
+## Screenshots
 
 | Main Interface | Conversion Process |
 |---|---|
 | ![Main Interface](screenshots/main-interface.png) | ![Conversion Process](screenshots/conversion-process.png) |
 
-## ?? Quick Start
+## Quick Start
 
 ### Prerequisites
 - Windows 10/11
@@ -73,9 +73,9 @@ dotnet build -c Release
 2. **Select your Python file** (drag & drop or browse)
 3. **Choose output directory** (defaults to Desktop)
 4. **Configure options** (single file, console hiding, custom icon)
-5. **Click Convert** - watch the magic happen! ?
+5. **Click Convert** - watch the magic happen!
 
-## ??? Building from Source
+## Building from Source
 
 ### Prerequisites
 - Visual Studio 2022 or VS Code
@@ -105,7 +105,7 @@ We provide convenient build scripts:
 - **`build-all-platforms.bat`** - Builds for both x64 and x86
 - **`build-release.bat`** - Full release build with all configurations
 
-## ?? System Requirements
+## System Requirements
 
 ### Runtime Requirements
 | Component | Minimum | Recommended |
@@ -122,7 +122,7 @@ We provide convenient build scripts:
 | Visual Studio | 2022+ |
 | Python | 3.7+ |
 
-## ?? Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -141,11 +141,11 @@ We provide convenient build scripts:
 - Verify all dependencies are installed
 
 ### Getting Help
-- ?? Check our [Documentation](docs/)
-- ?? [Report Issues](https://github.com/realLuckyy/Python-to-exe/issues)
-- ?? [Discussions](https://github.com/realLuckyy/Python-to-exe/discussions)
+- Check our [Documentation](docs/)
+- [Report Issues](https://github.com/realLuckyy/Python-to-exe/issues)
+- [Discussions](https://github.com/realLuckyy/Python-to-exe/discussions)
 
-## ?? Contributing
+## Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
@@ -156,24 +156,24 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 4. Make your changes
 5. Submit a pull request
 
-## ?? License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ?? Acknowledgments
+## Acknowledgments
 
 - [PyInstaller](https://pyinstaller.readthedocs.io/) - The powerful Python packaging tool
 - [.NET](https://dotnet.microsoft.com/) - Cross-platform development framework
 - [Windows Forms](https://docs.microsoft.com/dotnet/desktop/winforms/) - GUI framework
 
-## ?? Project Stats
+## Project Stats
 
 ![GitHub stars](https://img.shields.io/github/stars/realLuckyy/Python-to-exe?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/realLuckyy/Python-to-exe?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/realLuckyy/Python-to-exe)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/realLuckyy/Python-to-exe)
 
-## ?? Support the Project
+## Support the Project
 
 If you find PyConverter useful, consider supporting the development:
 
@@ -181,6 +181,6 @@ If you find PyConverter useful, consider supporting the development:
 
 ---
 
-**Made with ?? by [Luckyy](https://github.com/realLuckyy)**
+**Made with love by [Luckyy](https://github.com/realLuckyy)**
 
 > Transform Python scripts into professional Windows applications - no dependencies required!
