@@ -1,9 +1,9 @@
 # ?? PyConverter - Python to EXE Converter
 
-[![Build Status](https://github.com/YOUR_USERNAME/PyConverter/workflows/Build/badge.svg)](https://github.com/YOUR_USERNAME/PyConverter/actions)
-[![Release](https://img.shields.io/github/v/release/YOUR_USERNAME/PyConverter)](https://github.com/YOUR_USERNAME/PyConverter/releases)
-[![Downloads](https://img.shields.io/github/downloads/YOUR_USERNAME/PyConverter/total)](https://github.com/YOUR_USERNAME/PyConverter/releases)
-[![License](https://img.shields.io/github/license/YOUR_USERNAME/PyConverter)](LICENSE)
+[![Build Status](https://github.com/realLuckyy/Python-to-exe/workflows/Build/badge.svg)](https://github.com/realLuckyy/Python-to-exe/actions)
+[![Release](https://img.shields.io/github/v/release/realLuckyy/Python-to-exe)](https://github.com/realLuckyy/Python-to-exe/releases)
+[![Downloads](https://img.shields.io/github/downloads/realLuckyy/Python-to-exe/total)](https://github.com/realLuckyy/Python-to-exe/releases)
+[![License](https://img.shields.io/github/license/realLuckyy/Python-to-exe)](LICENSE)
 
 > **A powerful Windows GUI application for converting Python scripts to standalone executables using PyInstaller integration.**
 
@@ -56,14 +56,14 @@ Transform your Python projects into professional Windows applications with zero 
 ### Installation
 
 #### Option 1: Download Standalone Executable (Recommended)
-1. Go to [Releases](https://github.com/YOUR_USERNAME/PyConverter/releases)
+1. Go to [Releases](https://github.com/realLuckyy/Python-to-exe/releases)
 2. Download `PyConverter.exe`
 3. Run directly - no installation required!
 
 #### Option 2: Build from Source
 ```bash
-git clone https://github.com/YOUR_USERNAME/PyConverter.git
-cd PyConverter
+git clone https://github.com/realLuckyy/Python-to-exe.git
+cd Python-to-exe
 dotnet build -c Release
 ```
 
@@ -85,8 +85,8 @@ dotnet build -c Release
 ### Build Steps
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/PyConverter.git
-cd PyConverter
+git clone https://github.com/realLuckyy/Python-to-exe.git
+cd Python-to-exe
 
 # Build debug version
 dotnet build
@@ -142,8 +142,8 @@ We provide convenient build scripts:
 
 ### Getting Help
 - ?? Check our [Documentation](docs/)
-- ?? [Report Issues](https://github.com/YOUR_USERNAME/PyConverter/issues)
-- ?? [Discussions](https://github.com/YOUR_USERNAME/PyConverter/discussions)
+- ?? [Report Issues](https://github.com/realLuckyy/Python-to-exe/issues)
+- ?? [Discussions](https://github.com/realLuckyy/Python-to-exe/discussions)
 
 ## ?? Contributing
 
@@ -168,10 +168,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## ?? Project Stats
 
-![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/PyConverter?style=social)
-![GitHub forks](https://img.shields.io/github/forks/YOUR_USERNAME/PyConverter?style=social)
-![GitHub issues](https://img.shields.io/github/issues/YOUR_USERNAME/PyConverter)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/YOUR_USERNAME/PyConverter)
+![GitHub stars](https://img.shields.io/github/stars/realLuckyy/Python-to-exe?style=social)
+![GitHub forks](https://img.shields.io/github/forks/realLuckyy/Python-to-exe?style=social)
+![GitHub issues](https://img.shields.io/github/issues/realLuckyy/Python-to-exe)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/realLuckyy/Python-to-exe)
 
 ## ?? Support the Project
 
@@ -181,6 +181,6 @@ If you find PyConverter useful, consider supporting the development:
 
 ---
 
-**Made with ?? by [Your Name](https://github.com/YOUR_USERNAME)**
+**Made with ?? by [Luckyy](https://github.com/realLuckyy)**
 
 > Transform Python scripts into professional Windows applications - no dependencies required!
