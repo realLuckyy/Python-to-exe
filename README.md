@@ -175,6 +175,6 @@ If you find PyConverter useful, consider supporting the development:
 
 ---
 
-**Made with by [Luckyy](https://github.com/realLuckyy)**
+**Made by [Luckyy](https://github.com/realLuckyy)**
 
 > Transform Python scripts into professional Windows applications - no dependencies required!
