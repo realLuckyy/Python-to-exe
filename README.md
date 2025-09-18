@@ -40,12 +40,6 @@ Transform your Python projects into professional Windows applications with zero 
 - **Error Recovery** - Graceful handling of missing files and failed operations
 - **Process Management** - Safe handling of PyInstaller processes and cleanup
 
-## Screenshots
-
-| Main Interface | Conversion Process |
-|---|---|
-| ![Main Interface](screenshots/main-interface.png) | ![Conversion Process](screenshots/conversion-process.png) |
-
 ## Quick Start
 
 ### Prerequisites
@@ -181,6 +175,6 @@ If you find PyConverter useful, consider supporting the development:
 
 ---
 
-**Made with love by [Luckyy](https://github.com/realLuckyy)**
+**Made with ?? by [Luckyy](https://github.com/realLuckyy)**
 
 > Transform Python scripts into professional Windows applications - no dependencies required!
