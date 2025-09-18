@@ -18,7 +18,7 @@ We take security seriously. If you discover a security vulnerability, please fol
 
 Instead, please report security issues privately by:
 
-1. **Email**: Send details to [security@yourproject.com] (replace with actual email)
+1. **Email**: Send details to [security@yourproject.com] 
 2. **GitHub Security**: Use GitHub's private vulnerability reporting feature
 3. **Direct Message**: Contact maintainers through secure channels
 
