@@ -1,9 +1,9 @@
 # PyConverter - Python to EXE Converter
 
-[![Build Status](https://github.com/realLuckyy/Python-to-exe/workflows/Build/badge.svg)](https://github.com/realLuckyy/Python-to-exe/actions)
+[![Build Status](https://github.com/realLuckyy/Python-to-exe/workflows/Build%20and%20Release/badge.svg)](https://github.com/realLuckyy/Python-to-exe/actions)
 [![Release](https://img.shields.io/github/v/release/realLuckyy/Python-to-exe)](https://github.com/realLuckyy/Python-to-exe/releases)
 [![Downloads](https://img.shields.io/github/downloads/realLuckyy/Python-to-exe/total)](https://github.com/realLuckyy/Python-to-exe/releases)
-[![License](https://img.shields.io/github/license/realLuckyy/Python-to-exe)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > **A powerful Windows GUI application for converting Python scripts to standalone executables using PyInstaller integration.**
 
