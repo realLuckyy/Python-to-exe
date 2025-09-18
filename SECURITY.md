@@ -12,7 +12,7 @@ We actively support the following versions of Python to EXE Converter:
 
 We take security seriously. If you discover a security vulnerability, please follow these steps:
 
-### ?? Private Reporting
+###  Private Reporting
 
 **DO NOT** create a public GitHub issue for security vulnerabilities.
 
@@ -22,7 +22,7 @@ Instead, please report security issues privately by:
 2. **GitHub Security**: Use GitHub's private vulnerability reporting feature
 3. **Direct Message**: Contact maintainers through secure channels
 
-### ?? What to Include
+###  What to Include
 
 When reporting a vulnerability, please include:
 
@@ -32,7 +32,7 @@ When reporting a vulnerability, please include:
 - **Environment**: OS version, .NET version, Python version
 - **Proposed Fix**: If you have suggestions for remediation
 
-### ?? Response Timeline
+###  Response Timeline
 
 We aim to respond to security reports within:
 
@@ -41,7 +41,7 @@ We aim to respond to security reports within:
 - **Fix Development**: 2-4 weeks (depending on complexity)
 - **Public Disclosure**: After fix is available and users have time to update
 
-### ??? Security Considerations
+### ? Security Considerations
 
 #### Application Security
 - **Process Execution**: The application executes Python and PyInstaller processes
@@ -61,7 +61,7 @@ We aim to respond to security reports within:
 - **Sandboxing**: Conversion processes run with limited privileges
 - **Error Handling**: Comprehensive error handling prevents information disclosure
 
-### ?? Security Best Practices for Users
+###  Security Best Practices for Users
 
 #### Safe Usage
 1. **Scan Python Files**: Ensure Python scripts are from trusted sources
@@ -74,7 +74,7 @@ We aim to respond to security reports within:
 2. **Antivirus Scanning**: Scan generated executables before distribution
 3. **Testing**: Test executables in isolated environments first
 
-### ?? Known Security Considerations
+###  Known Security Considerations
 
 #### PyInstaller Security
 - Generated executables can be reverse-engineered
@@ -87,7 +87,7 @@ We aim to respond to security reports within:
 - Some antivirus software may quarantine or block executables
 - Digital signatures improve trust and reduce false positives
 
-### ?? Security Updates
+###  Security Updates
 
 Security updates will be:
 - **Prioritized**: Released as soon as possible
@@ -95,7 +95,7 @@ Security updates will be:
 - **Communicated**: Announced through appropriate channels
 - **Backward Compatible**: When possible, to ease adoption
 
-### ?? Contact Information
+###  Contact Information
 
 For security-related questions or concerns:
 
@@ -103,7 +103,7 @@ For security-related questions or concerns:
 - **Maintainer**: [maintainer@yourproject.com]
 - **GitHub**: Use private vulnerability reporting
 
-### ?? Security Acknowledgments
+###  Security Acknowledgments
 
 We appreciate security researchers and users who help improve our security:
 
